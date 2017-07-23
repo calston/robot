@@ -1,0 +1,28 @@
+<html xmlns:t="http://twistedmatrix.com/ns/twisted.web.template/0.1">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>Robot</title>
+    <script src="/static/js/jquery-2.2.2.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/bootstrap-switch.min.js"></script>
+    <script src="/static/js/jquery.peity.min.js"></script>
+    <script src="/static/js/URI.min.js"></script>
+    <script src="/static/js/sprintf.min.js"></script>
+    
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/static/css/bootstrap-switch.min.css" rel="stylesheet"/>
+    <link href="/static/css/robot.css" rel="stylesheet"/>
+  </head>
+  <body>
+
+    <div class="container">
+      <div t:render="content"/>
+
+      <footer class="footer"></footer>
+    </div>
+
+  </body>
+</html>
