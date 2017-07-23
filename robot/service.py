@@ -77,7 +77,6 @@ class DataProtocol(WebSocketServerProtocol):
 
     def cmd_arm_open(self, args):
         self.arm_vector[3] = -1
-        print self.arm
 
     def cmd_move_fwd(self, args):
         self.motor.forward()
