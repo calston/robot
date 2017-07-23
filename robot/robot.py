@@ -78,10 +78,10 @@ class Motor(object):
         self.set_state(0, 1, 0, 1)
 
     def left(self):
-        self.set_state(1, 0, 0, 0)
+        self.set_state(1, 0, 0, 1)
 
     def right(self):
-        self.set_state(0, 0, 1, 0)
+        self.set_state(0, 1, 1, 0)
 
     def stop(self):
         self.set_state(0, 0, 0, 0)

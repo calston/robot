@@ -41,7 +41,7 @@ function start_robot() {
 
   $(document).keyup(function(event) {
     send_command('stop', {});
-    console.log("HALT");
+    //console.log("HALT");
     lastKey = 0;
   });
 
@@ -118,7 +118,7 @@ function start_robot() {
           break;
 
       }
-      console.log(event.which);
+      //console.log(event.which);
     }
   });
 };

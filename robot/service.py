@@ -31,6 +31,8 @@ class DataProtocol(WebSocketServerProtocol):
 
         self.t.start(0.01)
 
+        WebSocketServerProtocol.__init__(self)
+
     def onMessage(self, payload, binary):
         if not binary:
             log.msg(payload)
